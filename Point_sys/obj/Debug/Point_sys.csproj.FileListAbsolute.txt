@@ -1,0 +1,502 @@
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\Point_sys.exe.config
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\Point_sys.exe
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\Point_sys.pdb
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.xml
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.exe.licenses
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.exe
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.pdb
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.menu.resources
+c:\users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.Images.v17.1.dll
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.CXC.Mant.mant_cliente.resources
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\obj\Debug\Point_sys.Herencias.frm_mantcs.resources
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\documents\visual studio 2015\Projects\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Point_sys.exe.config
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.exe
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.pdb
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Point_sys.exe
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Point_sys.pdb
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Images.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Herencias.frm_mantcs.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Properties.Resources.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.exe.licenses
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.menu.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Devart.Data.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Devart.Data.PostgreSql.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Devart.Data.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Devart.Data.PostgreSql.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Ventas.Proceso.frmventas.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.CXC.Mant.Cliente.mant_cliente.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Herencias.frm_no_border.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.CXC.Consulta.cliente_consulta.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Xpo.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.CodeParser.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Generales.Mod_rep.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.XtraReport1.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Form1.resources
+C:\Users\user\Desktop\Point_sys\Point_sys\obj\Debug\Point_sys.Generales.frmslider_produ.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Point_sys.exe.config
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Point_sys.exe
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Point_sys.pdb
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Devart.Data.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Devart.Data.PostgreSql.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Charts.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.CodeParser.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Images.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.PivotGrid.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Export.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.UI.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Xpo.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGauges.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Newtonsoft.Json.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraRichEdit.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.UI.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Extensions.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPivotGrid.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Diagram.v17.1.Core.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraDiagram.v17.1.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Devart.Data.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Devart.Data.PostgreSql.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Data.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Office.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.PivotGrid.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Utils.v17.1.UI.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Xpo.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraBars.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.Wizard.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraCharts.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGauges.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraNavBar.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraReports.v17.1.Extensions.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraVerticalGrid.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\Newtonsoft.Json.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraRichEdit.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.DataAccess.v17.1.UI.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraPivotGrid.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.Diagram.v17.1.Core.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\DevExpress.XtraDiagram.v17.1.xml
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Utils.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Utils.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Utils.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Utils.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\bin\Debug\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.CXC.Consulta.cliente_consulta.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.CXC.Mant.Cliente.mant_cliente.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Form1.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Generales.frmslider_produ.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Generales.Mod_rep.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Herencias.frm_mantcs.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Herencias.frm_no_border.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Inventario.Consulta.Produc_consulta.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Inventario.Mant.mant_productos.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.menu.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Principal.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Properties.Resources.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.Ventas.Proceso.frmventas.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.XtraForm1.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.XtraReport1.resources
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.csproj.GenerateResource.Cache
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.exe.licenses
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.exe
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.pdb

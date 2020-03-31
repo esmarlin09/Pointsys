@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="17.1.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" ScriptsSource="&#xD;&#xA;private void richText3_SizeChanged(object sender, DevExpress.XtraReports.UI.ChangeEventArgs e) {&#xD;&#xA;&#xD;&#xA;}&#xD;&#xA;" Margins="0, 573, 178, 194" PageWidth="850" PageHeight="1100" Version="17.1" DataMember="pa_tra_envio_cobro_relacion" DataSource="#Ref-0">
+  <Parameters>
+    <Item1 Ref="3" Description="pnombreempres" Name="nombre_empresa" />
+    <Item2 Ref="4" Description="Pterminal" Name="terminal" />
+    <Item3 Ref="5" Description="Plemaempresa" Name="lemaempresa" />
+    <Item4 Ref="6" Description="Pdesde" Name="Desde" />
+    <Item5 Ref="7" Description="Phasta" Name="hasta" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="8" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="178.333328">
+      <Controls>
+        <Item1 Ref="9" ControlType="XRLabel" Name="label7" Text="label7" SizeF="52.5,23" LocationFloat="166.000015, 115" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="11" Parameter="#Ref-7" PropertyName="Text" DataMember="hasta" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="12" ControlType="XRLabel" Name="label6" Text="Hasta" SizeF="41.6666679,23" LocationFloat="124.333344, 115" Padding="2,2,0,0,100" />
+        <Item3 Ref="13" ControlType="XRLabel" Name="label5" Text="label5" SizeF="60.1111336,23" LocationFloat="51.6666679, 115" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="14" Parameter="#Ref-6" PropertyName="Text" DataMember="Desde" />
+          </DataBindings>
+        </Item3>
+        <Item4 Ref="15" ControlType="XRLabel" Name="label3" Text="label3" TextAlignment="TopCenter" SizeF="242.833359,23.0000038" LocationFloat="10, 56.00001" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="16" Parameter="#Ref-5" PropertyName="Text" DataMember="lemaempresa" />
+          </DataBindings>
+          <StylePriority Ref="17" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="18" ControlType="XRLabel" Name="label2" Text="label2" TextAlignment="TopCenter" SizeF="242.833359,23" LocationFloat="10, 33.0000038" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="19" Parameter="#Ref-4" PropertyName="Text" DataMember="terminal" />
+          </DataBindings>
+          <StylePriority Ref="20" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="21" ControlType="XRLabel" Name="label1" Text="label1" TextAlignment="TopCenter" SizeF="242.833359,23" LocationFloat="10, 10" Font="Arial, 11pt" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="22" Parameter="#Ref-3" PropertyName="Text" DataMember="nombre_empresa" />
+          </DataBindings>
+          <StylePriority Ref="23" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="24" ControlType="XRRichText" Name="richText1" SerializableRtfString="ewBcAHIAdABmADEAXABkAGUAZgBmADAAewBcAGYAbwBuAHQAdABiAGwAewBcAGYAMAAgAEMAYQBsAGkAYgByAGkAOwB9AHsAXABmADEAIABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgA7AH0AewBcAGYAMgAgAGEAcgBpAGEAbAA7AH0AfQB7AFwAYwBvAGwAbwByAHQAYgBsACAAOwBcAHIAZQBkADAAXABnAHIAZQBlAG4AMABcAGIAbAB1AGUAMAAgADsAXAByAGUAZAAwAFwAZwByAGUAZQBuADAAXABiAGwAdQBlADIANQA1ACAAOwB9AHsAXAAqAFwAZABlAGYAYwBoAHAAIABcAGYAMQBcAGYAcwAyADQAfQB7AFwAcwB0AHkAbABlAHMAaABlAGUAdAAgAHsAXABxAGwAXABmADEAXABmAHMAMgA0ACAATgBvAHIAbQBhAGwAOwB9AHsAXAAqAFwAYwBzADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABEAGUAZgBhAHUAbAB0ACAAUABhAHIAYQBnAHIAYQBwAGgAIABGAG8AbgB0ADsAfQB7AFwAKgBcAGMAcwAyAFwAcwBiAGEAcwBlAGQAbwBuADEAXABmADEAXABmAHMAMgA0AFwAYwBmADEAIABMAGkAbgBlACAATgB1AG0AYgBlAHIAOwB9AHsAXAAqAFwAYwBzADMAXAB1AGwAXABmADEAXABmAHMAMgA0AFwAYwBmADIAIABIAHkAcABlAHIAbABpAG4AawA7AH0AewBcACoAXAB0AHMANABcAHQAcwByAG8AdwBkAFwAZgAxAFwAZgBzADIANABcAHEAbABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgBsADMAXAB0AHMAYwBlAGwAbABwAGEAZABkAGwAMQAwADgAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAYgAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwBjAGUAbABsAHAAYQBkAGQAZgB0ADMAXAB0AHMAdgBlAHIAdABhAGwAdABcAGMAbAB0AHgAbAByAHQAYgAgAE4AbwByAG0AYQBsACAAVABhAGIAbABlADsAfQB7AFwAKgBcAHQAcwA1AFwAdABzAHIAbwB3AGQAXABzAGIAYQBzAGUAZABvAG4ANABcAGYAMQBcAGYAcwAyADQAXABxAGwAXAB0AHIAYgByAGQAcgB0AFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGwAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAYgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHIAYgByAGQAcgByAFwAYgByAGQAcgBzAFwAYgByAGQAcgB3ADEAMABcAHQAcgBiAHIAZAByAGgAXABiAHIAZAByAHMAXABiAHIAZAByAHcAMQAwAFwAdAByAGIAcgBkAHIAdgBcAGIAcgBkAHIAcwBcAGIAcgBkAHIAdwAxADAAXAB0AHMAYwBlAGwAbABwAGEAZABkAGYAbAAzAFwAdABzAGMAZQBsAGwAcABhAGQAZABsADEAMAA4AFwAdABzAGMAZQBsAGwAcABhAGQAZABmAHIAMwBcAHQAcwBjAGUAbABsAHAAYQBkAGQAcgAxADAAOABcAHQAcwB2AGUAcgB0AGEAbAB0AFwAYwBsAHQAeABsAHIAdABiACAAVABhAGIAbABlACAAUwBpAG0AcABsAGUAIAAxADsAfQB9AHsAXAAqAFwAbABpAHMAdABvAHYAZQByAHIAaQBkAGUAdABhAGIAbABlAH0AXABuAG8AdQBpAGMAbwBtAHAAYQB0AFwAcwBwAGwAeQB0AHcAbgBpAG4AZQBcAGgAdABtAGEAdQB0AHMAcABcAHAAYQByAGQAXABwAGwAYQBpAG4AXABxAGMAewBcACoAXABiAGsAbQBrAHMAdABhAHIAdAAgAF8AZAB4AF8AZgByAGEAZwBfAFMAdABhAHIAdABGAHIAYQBnAG0AZQBuAHQAfQB7AFwAKgBcAGIAawBtAGsAZQBuAGQAIABfAGQAeABfAGYAcgBhAGcAXwBTAHQAYQByAHQARgByAGEAZwBtAGUAbgB0AH0AewBcAGIAXABmADIAXABmAHMAMgAxAFwAYwBmADEAIABMAEkAUwBUAEEARABPACAARABFACAAQwBPAEIAUgBPAFMAIABEAEUAIABGAEEAQwBUAFUAUgBBAH0AXABmADEAXABmAHMAMgA0AFwAYwBmADEAXABwAGEAcgB9AA==" SizeF="277.000031,28.0000038" LocationFloat="0, 86.99999" Font="Times New Roman, 9.75pt" />
+        <Item8 Ref="25" ControlType="XRLabel" Name="label4" Text="Desde" SizeF="41.6666679,23" LocationFloat="10, 115" Padding="2,2,0,0,96" />
+        <Item9 Ref="26" ControlType="XRTable" Name="table1" SizeF="277.000031,25" LocationFloat="0, 153.333328">
+          <Rows>
+            <Item1 Ref="27" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="28" ControlType="XRTableCell" Name="tableCell1" Weight="1" Text="No.Cobro" Font="Times New Roman, 10pt">
+                  <StylePriority Ref="29" UseFont="false" />
+                </Item1>
+                <Item2 Ref="30" ControlType="XRTableCell" Name="tableCell2" Weight="1" Text="Fecha" TextAlignment="TopCenter" Font="Times New Roman, 10pt">
+                  <StylePriority Ref="31" UseFont="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="32" ControlType="XRTableCell" Name="tableCell3" Weight="1" Text="Monto" TextAlignment="TopRight" Font="Times New Roman, 10pt">
+                  <StylePriority Ref="33" UseFont="false" UseTextAlignment="false" />
+                </Item3>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item9>
+      </Controls>
+    </Item1>
+    <Item2 Ref="34" ControlType="DetailBand" Name="detailBand1" HeightF="59.1666679">
+      <SortFields>
+        <Item1 Ref="35" FieldName="numero_cobro" />
+      </SortFields>
+      <Controls>
+        <Item1 Ref="36" ControlType="XRLabel" Name="label11" Text="label11" SizeF="267.000031,23" LocationFloat="0, 26.166687" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="37" PropertyName="Text" DataMember="pa_tra_envio_cobro_relacion.nombre_cliente" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="38" ControlType="XRLabel" Name="label10" Text="label10" TextAlignment="TopRight" SizeF="84.66666,23" LocationFloat="192.333374, 0" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="39" PropertyName="Text" DataMember="pa_tra_envio_cobro_relacion.total" />
+          </DataBindings>
+          <StylePriority Ref="40" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="41" ControlType="XRLabel" Name="label9" Text="label9" TextAlignment="TopCenter" SizeF="100,23" LocationFloat="92.33335, 0" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="42" PropertyName="Text" DataMember="pa_tra_envio_cobro_relacion.fecha" />
+          </DataBindings>
+          <StylePriority Ref="43" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="44" ControlType="XRLabel" Name="label8" Text="label8" SizeF="92.33335,23" LocationFloat="0, 0" Font="Times New Roman, 9pt" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="45" PropertyName="Text" DataMember="pa_tra_envio_cobro_relacion.numero_cobro" />
+          </DataBindings>
+          <StylePriority Ref="46" UseFont="false" />
+        </Item4>
+      </Controls>
+    </Item2>
+    <Item3 Ref="47" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="194.166672" />
+  </Bands>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v17.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2U+PE5hbWU+c3FsRGF0YVNvdXJjZTE8L05hbWU+PENvbm5lY3Rpb24gTmFtZT0icHJ1ZWJhX3JlcG9ydGVzLlByb3BlcnRpZXMuU2V0dGluZ3MuVEVzcGluYWxDb25uZWN0aW9uU3RyaW5nIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTdG9yZWRQcm9jUXVlcnkiIE5hbWU9InBhX3RyYV9lbnZpb19jb2Jyb19yZWxhY2lvbiI+PFBhcmFtZXRlciBOYW1lPSJAZmVjaGFfaW5pY2lhbCIgVHlwZT0iU3lzdGVtLlN0cmluZyI+PC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAZmVjaGFfaGFzdGEiIFR5cGU9IlN5c3RlbS5TdHJpbmciPjwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQGlkY2xpZW50ZSIgVHlwZT0iU3lzdGVtLkludDY0Ij4wPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAaWR0ZXJtaW5hbCIgVHlwZT0iU3lzdGVtLkludDMyIj4wPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAZXN0YWRvIiBUeXBlPSJTeXN0ZW0uSW50MzIiPjA8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBpZHR1cm5vIiBUeXBlPSJTeXN0ZW0uSW50MzIiPjA8L1BhcmFtZXRlcj48UHJvY05hbWU+cGFfdHJhX2VudmlvX2NvYnJvX3JlbGFjaW9uPC9Qcm9jTmFtZT48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9InBhX3RyYV9lbnZpb19jb2Jyb19yZWxhY2lvbiI+PEZpZWxkIE5hbWU9Im51bWVyb19jb2JybyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJmZWNoYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJub21icmVfY2xpZW50ZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJ0b3RhbCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibnVsbyIgVHlwZT0iSW50MzIiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+</XtraReportsLayoutSerializer>
