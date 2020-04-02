@@ -275,9 +275,10 @@
             this.txtcodpro.Location = new System.Drawing.Point(260, 36);
             this.txtcodpro.Name = "txtcodpro";
             this.txtcodpro.Size = new System.Drawing.Size(125, 25);
-            this.txtcodpro.TabIndex = 38;
+            this.txtcodpro.TabIndex = 0;
             this.txtcodpro.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtcodpro.Touch = false;
+            this.txtcodpro.Validating += new System.ComponentModel.CancelEventHandler(this.txtcodpro_Validating);
             // 
             // txtcantidad
             // 
@@ -286,41 +287,45 @@
             this.txtcantidad.Location = new System.Drawing.Point(1017, 36);
             this.txtcantidad.Name = "txtcantidad";
             this.txtcantidad.Size = new System.Drawing.Size(115, 25);
-            this.txtcantidad.TabIndex = 42;
+            this.txtcantidad.TabIndex = 2;
             this.txtcantidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtcantidad.Touch = false;
+            this.txtcantidad.Validating += new System.ComponentModel.CancelEventHandler(this.txtcantidad_Validating);
             // 
             // txtdescripcion
             // 
             this.txtdescripcion.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtdescripcion.Enabled = false;
             this.txtdescripcion.enabled_personalizado = false;
             this.txtdescripcion.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdescripcion.Location = new System.Drawing.Point(391, 36);
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(620, 25);
-            this.txtdescripcion.TabIndex = 39;
+            this.txtdescripcion.TabIndex = 1;
             this.txtdescripcion.Touch = false;
             // 
             // txtprecio
             // 
+            this.txtprecio.Enabled = false;
             this.txtprecio.enabled_personalizado = false;
             this.txtprecio.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtprecio.Location = new System.Drawing.Point(1138, 36);
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(146, 25);
-            this.txtprecio.TabIndex = 43;
+            this.txtprecio.TabIndex = 3;
             this.txtprecio.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtprecio.Touch = false;
             // 
             // txtdescuento
             // 
             this.txtdescuento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtdescuento.Enabled = false;
             this.txtdescuento.enabled_personalizado = false;
             this.txtdescuento.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdescuento.Location = new System.Drawing.Point(1290, 36);
             this.txtdescuento.Name = "txtdescuento";
             this.txtdescuento.Size = new System.Drawing.Size(161, 25);
-            this.txtdescuento.TabIndex = 45;
+            this.txtdescuento.TabIndex = 4;
             this.txtdescuento.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtdescuento.Touch = false;
             // 
@@ -518,7 +523,7 @@
             this.txtcodigocliente.Location = new System.Drawing.Point(91, 9);
             this.txtcodigocliente.Name = "txtcodigocliente";
             this.txtcodigocliente.Size = new System.Drawing.Size(86, 32);
-            this.txtcodigocliente.TabIndex = 68;
+            this.txtcodigocliente.TabIndex = 0;
             this.txtcodigocliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtcodigocliente.Touch = false;
             // 
@@ -536,12 +541,13 @@
             // txtimporte
             // 
             this.txtimporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtimporte.Enabled = false;
             this.txtimporte.enabled_personalizado = false;
             this.txtimporte.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtimporte.Location = new System.Drawing.Point(1457, 36);
             this.txtimporte.Name = "txtimporte";
             this.txtimporte.Size = new System.Drawing.Size(164, 25);
-            this.txtimporte.TabIndex = 47;
+            this.txtimporte.TabIndex = 5;
             this.txtimporte.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtimporte.Touch = false;
             // 
@@ -555,6 +561,7 @@
             this.simpleButton3.Size = new System.Drawing.Size(52, 40);
             this.simpleButton3.StyleController = this.panelControl1layoutControl1ConvertedLayout;
             this.simpleButton3.TabIndex = 49;
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // panelControl1layoutControl1ConvertedLayout
             // 
@@ -625,6 +632,7 @@
             this.dataGridViewX1.EnableHeadersVisualStyles = false;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dataGridViewX1.Location = new System.Drawing.Point(2, 2);
+            this.dataGridViewX1.MultiSelect = false;
             this.dataGridViewX1.Name = "dataGridViewX1";
             this.dataGridViewX1.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -636,6 +644,9 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewX1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewX1.RowTemplate.Height = 24;
+            this.dataGridViewX1.SelectAllSignVisible = false;
+            this.dataGridViewX1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewX1.ShowEditingIcon = false;
             this.dataGridViewX1.Size = new System.Drawing.Size(1463, 514);
             this.dataGridViewX1.TabIndex = 19;
             this.dataGridViewX1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewX1_CellClick);
@@ -721,7 +732,7 @@
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(42, 40);
             this.simpleButton4.StyleController = this.panelControl1layoutControl1ConvertedLayout;
-            this.simpleButton4.TabIndex = 36;
+            this.simpleButton4.TabIndex = 6;
             this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // expandablePanel1
@@ -807,6 +818,7 @@
             this.simpleButton1.Size = new System.Drawing.Size(177, 29);
             this.simpleButton1.TabIndex = 37;
             this.simpleButton1.Text = "Registrar Producto";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // panelEx1
             // 

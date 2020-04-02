@@ -500,3 +500,4 @@ D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.csproj.Gen
 D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.exe.licenses
 D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.exe
 D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.pdb
+D:\Desarrollo actual26-3-2020\Point_sys\Point_sys\obj\Debug\Point_sys.csprojResolveAssemblyReference.cache

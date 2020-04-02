@@ -16,7 +16,7 @@ namespace Point_sys
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inventario.Mant.mant_productos());
+            Application.Run(new menu());
         }
     }
 }

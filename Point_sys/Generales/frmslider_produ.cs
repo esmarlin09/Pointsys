@@ -16,10 +16,12 @@ namespace Point_sys.Generales
 {
     public partial class frmslider_produ : Herencias.frm_no_border
     {
+        
         public frmslider_produ()
         {
             InitializeComponent();
         }
+        public string url;
        ListBox lista_url = new ListBox();
         ListBox lista_urladd = new ListBox();
         private void frmslider_produ_Load(object sender, EventArgs e)
@@ -93,7 +95,11 @@ namespace Point_sys.Generales
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(imageSlider1.CurrentImageIndex.ToString() + lista_urladd.Items[imageSlider1.CurrentImageIndex].ToString());
+            if (lista_urladd.Items[imageSlider1.CurrentImageIndex].ToString() != "")
+            {
+                url= lista_urladd.Items[imageSlider1.CurrentImageIndex].ToString();
+                DialogResult = DialogResult.OK;
+            }
         }
 
       public  class guardarurl
