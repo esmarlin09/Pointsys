@@ -49,10 +49,7 @@
             // 
             // Btnretornar
             // 
-            this.Btnretornar.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnretornar.Appearance.Options.UseFont = true;
-            this.Btnretornar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btnretornar.ImageOptions.Image")));
-            this.Btnretornar.Location = new System.Drawing.Point(937, 1);
+           
             // 
             // simpleButton1
             // 

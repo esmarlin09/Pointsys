@@ -26,11 +26,34 @@ namespace Point_sys.CXC.Mant.Cliente
 
         private void XtraForm1_Load(object sender, EventArgs e)
         {
+            
             cargarcmb();
+
+            Crear();
+
+        }
+        protected override void Crear()
+        {
+            Fun_Set_Nombre_Formulario("Registro Cliente", this);
+            base.Crear();
+
+            txtcodigocliente.Enabled = false;
+            btnbuscar.Visible = false;
+            // txtcodigo.Text = sql_funciones.sqlfun_ultimo_codigo("idcliente", "syscxcclientes");
+
+        }
+        protected override void Modificar()
+        {
+            base.Modificar();
+            txtcodigocliente.Text = "";
+            btnbuscar.Visible = true;
+            txtcodigocliente.Enabled = true;
+            txtcodigocliente.Focus();
+
 
         }
 
-    private void btnbuscar_Click(object sender, EventArgs e)
+        private void btnbuscar_Click(object sender, EventArgs e)
         {
             cliente_consulta fr = new cliente_consulta();
             if (fr.ShowDialog() == DialogResult.OK)
@@ -61,33 +84,7 @@ namespace Point_sys.CXC.Mant.Cliente
 
         private void Btnsalvar_Click(object sender, EventArgs e)
         {
-            Control[] array = { txtcodigocliente, txtnombre, txtdireccion, mskRncCedula1, mskTelefono1};
-            base.Salvar();
-            if (Fun_Utilidades.validate_campos(array))
-            {
-                cliente_save api = new cliente_save();
-                api.cedrnc = Fun_Utilidades.Fun_String_Mask(mskRncCedula1);
-                api.celular = Fun_Utilidades.Fun_String_Mask(mskcelular);
-                api.comentario = txtcomentario.Text;
-                api.contacto = txtcontacto.Text;
-                api.contacto_tel = Fun_Utilidades.Fun_String_Mask(msktelcontacto);
-                api.direccion = txtdireccion.Text;
-                api.idcondicion = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbcondicion.SelectedValue.ToString());
-                api.idtipocomprobante = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbtiponcf.SelectedValue.ToString());
-                api.limite_credito = Fun_Utilidades.convertir_String_A_double(txtlimitecredito.Text);
-                api.nombre = txtnombre.Text;
-                api.numero_adicional = Fun_Utilidades.Fun_String_Mask(mskTeladicional); 
-                api.razon_social =txtrazonsocial.Text;
-                api.telefono = Fun_Utilidades.Fun_String_Mask(mskTelefono1); 
-                api.tipo = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbtipocliente.SelectedValue.ToString());
-
-
-                var json = JsonConvert.SerializeObject(api);
-                Cliente.Client_web.PostMessageToURL(json, "http://144.91.118.20:9090/cliente");
-                Fun_Utilidades.limpiar_form(this);
-
-
-            }
+           
 
 
         }
@@ -149,6 +146,52 @@ namespace Point_sys.CXC.Mant.Cliente
         }
 
         private void Btnretornar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btnsalvar_Click_1(object sender, EventArgs e)
+        {
+            Control[] array = { txtcodigocliente, txtnombre, txtdireccion, mskRncCedula1, mskTelefono1 };
+            base.Salvar();
+            if (Fun_Utilidades.validate_campos(array))
+            {
+                cliente_save api = new cliente_save();
+                api.cedrnc = Fun_Utilidades.Fun_String_Mask(mskRncCedula1);
+                api.celular = Fun_Utilidades.Fun_String_Mask(mskcelular);
+                api.comentario = txtcomentario.Text;
+                api.contacto = txtcontacto.Text;
+                api.contacto_tel = Fun_Utilidades.Fun_String_Mask(msktelcontacto);
+                api.direccion = txtdireccion.Text;
+                api.idcondicion = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbcondicion.SelectedValue.ToString());
+                api.idtipocomprobante = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbtiponcf.SelectedValue.ToString());
+                api.limite_credito = Fun_Utilidades.convertir_String_A_double(txtlimitecredito.Text);
+                api.nombre = txtnombre.Text;
+                api.numero_adicional = Fun_Utilidades.Fun_String_Mask(mskTeladicional);
+                api.razon_social = txtrazonsocial.Text;
+                api.telefono = Fun_Utilidades.Fun_String_Mask(mskTelefono1);
+                api.tipo = 1;//Fun_Utilidades.convertir_String_A_Entero( cmbtipocliente.SelectedValue.ToString());
+
+
+                var json = JsonConvert.SerializeObject(api);
+                Cliente.Client_web.PostMessageToURL(json, "http://144.91.118.20:9090/cliente");
+                Fun_Utilidades.limpiar_form(this);
+
+
+            }
+        }
+
+        private void BtnCrear_Click_1(object sender, EventArgs e)
+        {
+            Crear();
+        }
+
+        private void Btnmodificar_Click(object sender, EventArgs e)
+        {
+            Modificar();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }

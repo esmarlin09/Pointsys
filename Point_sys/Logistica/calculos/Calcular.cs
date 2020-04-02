@@ -25,21 +25,21 @@ namespace Point_sys.Logistica.calculos
                 double subtotal = 0;
                 double itbis = 0;
 
-                if (tipo == 18)
+                if (tipo == 1)
                 {
                     subtotal = precio / 1.18;
                     itbis = subtotal * 0.18;
 
 
                 }
-                if (tipo == 16)
+                if (tipo == 2)
                 {
                     subtotal = precio / 1.16;
                     itbis = subtotal * 0.16;
 
 
                 }
-                if (tipo == 0)
+                if (tipo == 3)
                 {
                     subtotal = precio / 1.18;
                     itbis = subtotal * 0.18;
