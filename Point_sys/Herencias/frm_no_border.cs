@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 
 namespace Point_sys.Herencias
 {
-    public partial class frm_no_border : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class frm_no_border :Form
     {
         public frm_no_border()
         {
@@ -42,13 +42,29 @@ namespace Point_sys.Herencias
 
         private void flowLayoutPanel1_MouseDown(object sender, MouseEventArgs e)
         {
-            ReleaseCapture();
-            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void panelEx1_MouseDown(object sender, MouseEventArgs e)
+        {
+
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frm_no_border_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawRectangle(new Pen(Color.Black, 3),
+                           this.DisplayRectangle);
         }
     }
 }

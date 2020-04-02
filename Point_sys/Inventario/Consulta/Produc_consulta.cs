@@ -24,11 +24,11 @@ namespace Point_sys.Inventario.Consulta
             InitializeComponent();
             
         }
-        public long idcliente;
+        public long idproducto;
 
         private void cliente_consulta_Load(object sender, EventArgs e)
         {
-            Fun_Set_Nombre_Formulario("Consulta Clientes", this);
+            Fun_Set_Nombre_Formulario("Consulta Productos", this);
             
             inicio();
         }
@@ -38,7 +38,7 @@ namespace Point_sys.Inventario.Consulta
         {
             ProductosAPIcs api = new ProductosAPIcs();
             
-            gridControl1.DataSource= api.lista();
+            gridControl1.DataSource= api.lista(0);
             txttotalrows.Text = gridView1.RowCount.ToString();
             
 
@@ -51,14 +51,14 @@ namespace Point_sys.Inventario.Consulta
         
     
         
-        private void Selec_idcliente()
+        private void Selec_product()
         {
 
          
-            if (gridView1.GetFocusedRowCellValue("id") != null)
+            if (gridView1.GetFocusedRowCellValue("prod_cod") != null)
             {
 
-                idcliente =long.Parse( gridView1.GetFocusedRowCellValue("id").ToString());
+                idproducto =long.Parse( gridView1.GetFocusedRowCellValue("prod_cod").ToString());
                // MessageBox.Show(idcliente.ToString());
                DialogResult = DialogResult.OK;
             }
@@ -83,7 +83,7 @@ namespace Point_sys.Inventario.Consulta
         private void gridView1_DoubleClick(object sender, EventArgs e)
         {
             //gridView1.current.Selected = true;
-            Selec_idcliente();
+            Selec_product();
         }
 
         private void gridView1_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
@@ -94,7 +94,7 @@ namespace Point_sys.Inventario.Consulta
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            Selec_idcliente();
+            Selec_product();
         }
 
         private void button1_Click_1(object sender, EventArgs e)

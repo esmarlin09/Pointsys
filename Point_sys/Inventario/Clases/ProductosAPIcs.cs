@@ -53,11 +53,23 @@ namespace Point_sys.Inventario.Clases
                 return HtmlResult;
             }
         }
-        public List<consult_produc> lista()
+       
+        public List<consult_produc> lista(long id)
         {
             List<consult_produc> listreturn = new List<consult_produc>();
+       
+            if (id > 0)
+            {
+                string url = "http://144.91.118.20:9090/producto/" + id + "";
 
-           
+                 var Json = new WebClient().DownloadString(url);
+
+               var  dataclientealbert = JsonConvert.DeserializeObject<consult_produc>(Json);
+                listreturn.Add(dataclientealbert);
+
+            }
+            else
+            {
 
                 string url = "http://144.91.118.20:9090/query/generico/productos";
 
@@ -65,6 +77,9 @@ namespace Point_sys.Inventario.Clases
 
                 var dataclientealbert = JsonConvert.DeserializeObject<List<consult_produc>>(Json);
                 listreturn = dataclientealbert;
+            }
+
+
             
 
 

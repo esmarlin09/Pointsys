@@ -54,10 +54,7 @@
             // 
             // Btnretornar
             // 
-            this.Btnretornar.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btnretornar.Appearance.Options.UseFont = true;
-            this.Btnretornar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btnretornar.ImageOptions.Image")));
-            this.Btnretornar.Location = new System.Drawing.Point(654, 2);
+            
             // 
             // layoutControl1
             // 
@@ -232,7 +229,7 @@
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.layoutControl1);
-            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Shadow;
+           
             this.Name = "frmslider_produ";
             this.Text = "frmslider_produ";
             this.Load += new System.EventHandler(this.frmslider_produ_Load);

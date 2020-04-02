@@ -11,7 +11,7 @@ using DevExpress.XtraEditors;
 
 namespace Point_sys.Herencias
 {
-    public partial class frm_mantcs : DevExpress.XtraEditors.XtraForm
+    public partial class frm_mantcs : Herencias.frm_no_border
     {
         public frm_mantcs()
         {
@@ -30,10 +30,10 @@ namespace Point_sys.Herencias
         {
             //superTabStrip1.AutoSelectAttachedControl = false;
             BtnCrear.Visible = true;
-            // BtnModificar.Visible = false;
+           // BtnModificar.Visible = false;
             Btnsalvar.Enabled = true;
             SQL_opcion = "MODIFICAR";
-
+            lblestado.Text = "Modificando";
 
         }
         protected virtual void Crear()
@@ -41,6 +41,7 @@ namespace Point_sys.Herencias
             //superTabStrip1.Tabs.Remove(BtnCrear);
             // BtnCrear.Visible = false;
             //superTabStrip1.SelectedTabIndex = 1;
+            lblestado.Text = "Creando";
             BtnCrear.Focus();
 
             Btnmodificar.Visible = true;
@@ -66,6 +67,61 @@ namespace Point_sys.Herencias
         private void standaloneBarDockControl1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BtnCrear_Click(object sender, EventArgs e)
+        {
+            Crear();
+        }
+
+        private void Btnmodificar_Click(object sender, EventArgs e)
+        {
+            Modificar();
+        }
+
+        private void Btnretornar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonX3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Btnsalvar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonX2_Click(object sender, EventArgs e)
+        {
+            Salvar();
+        }
+
+        private void superTabItem1_Click(object sender, EventArgs e)
+        {
+            Crear();
+        }
+
+        private void superTabItem2_Click(object sender, EventArgs e)
+        {
+            Modificar();
+        }
+
+        private void Btnsalvar_Click_1(object sender, EventArgs e)
+        {
+            Salvar();
+        }
+
+        private void BtnCrear_Click_1(object sender, EventArgs e)
+        {
+            Crear();
+        }
+
+        private void Btnmodificar_Click_1(object sender, EventArgs e)
+        {
+            Modificar();
         }
     }
 }
