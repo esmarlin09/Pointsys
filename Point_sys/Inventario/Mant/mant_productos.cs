@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,7 +24,7 @@ namespace Point_sys.Inventario.Mant
         {
             InitializeComponent();
         }
-
+        string url;
         private void mant_productos_Load(object sender, EventArgs e)
         {
             Crear();
@@ -43,9 +44,46 @@ namespace Point_sys.Inventario.Mant
         private void simpleButton2_Click(object sender, EventArgs e)
         {
             Generales.frmslider_produ fr = new Generales.frmslider_produ();
-            fr.ShowDialog();
+            if (fr.ShowDialog() == DialogResult.OK)
+            {
+                url = fr.url;
+                if (url != "")
+                {
+                    pictureEdit1.Image = cargar_imagen(url);
+                }
+            }
         }
+        Image cargar_imagen(string url)
+        {
+            Image imagen = Properties.Resources.boorder_32x32;
+            url.Substring(1);
+            if (url != "" && url.Substring(0) != "p")
+            {
 
+
+                var request = WebRequest.Create(url);
+                try
+                {
+                    using (var response = request.GetResponse())
+                    using (var stream = response.GetResponseStream())
+                    {
+                        imagen = Bitmap.FromStream(stream);
+                       
+                        return imagen;
+                    }
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("La imagen del producto no pudo ser cargada " + e.ToString());
+
+
+                }
+
+
+
+            }
+            return imagen;
+        }
         private void Btnretornar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -73,6 +111,7 @@ namespace Point_sys.Inventario.Mant
             btnbuscar.Visible = true;
             txtcod_pro.Enabled = true;
             txtcod_pro.Focus();
+            pictureEdit1.Image = null;
 
 
         }
@@ -108,6 +147,11 @@ namespace Point_sys.Inventario.Mant
                 boolrentable.EditValue = item.rentable;
                 txtreferencia.Text = item.referencia;
                 cmbtipoitbis.SelectedValue = item.tipo_impuesto.ToString();
+                if (item.image_url != "")
+                {
+                    pictureEdit1.Image = cargar_imagen(item.image_url);
+                }
+
             }
         }
 
@@ -146,10 +190,15 @@ namespace Point_sys.Inventario.Mant
             api.rentable = estado;
             api.stock_actual = 0;
             api.stock_minimo = Logistica.Funciones.Fun_Utilidades.convertir_String_A_Entero(txtminimo.Text);
+            if (url != "")
+            {
+                api.image_url = url;
+            }
             api.tipo_impuesto = Logistica.Funciones.Fun_Utilidades.convertir_String_A_Entero(cmbtipoitbis.SelectedValue.ToString());
             var json = JsonConvert.SerializeObject(api);
             ProductosAPIcs.PostMessageToURL(json, "http://144.91.118.20:9090/producto");
             Fun_Utilidades.limpiar_form(this);
+            pictureEdit1.Image = null;
         }
 
         private void txtcosto_Validating(object sender, CancelEventArgs e)

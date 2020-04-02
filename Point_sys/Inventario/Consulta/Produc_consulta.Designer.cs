@@ -153,7 +153,7 @@
             this.dgvcodigo.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvcodigo.AppearanceCell.BackColor2 = System.Drawing.Color.White;
             this.dgvcodigo.AppearanceCell.BorderColor = System.Drawing.Color.DarkSlateGray;
-            this.dgvcodigo.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvcodigo.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvcodigo.AppearanceCell.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvcodigo.AppearanceCell.Options.UseBackColor = true;
             this.dgvcodigo.AppearanceCell.Options.UseBorderColor = true;
@@ -162,7 +162,7 @@
             this.dgvcodigo.AppearanceHeader.BackColor = System.Drawing.Color.LightGray;
             this.dgvcodigo.AppearanceHeader.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvcodigo.AppearanceHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvcodigo.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvcodigo.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvcodigo.AppearanceHeader.Options.UseBackColor = true;
             this.dgvcodigo.AppearanceHeader.Options.UseBorderColor = true;
             this.dgvcodigo.AppearanceHeader.Options.UseFont = true;
@@ -179,7 +179,7 @@
             this.dgvnombre.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvnombre.AppearanceCell.BackColor2 = System.Drawing.Color.White;
             this.dgvnombre.AppearanceCell.BorderColor = System.Drawing.Color.DarkSlateGray;
-            this.dgvnombre.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvnombre.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvnombre.AppearanceCell.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvnombre.AppearanceCell.Options.UseBackColor = true;
             this.dgvnombre.AppearanceCell.Options.UseBorderColor = true;
@@ -188,7 +188,7 @@
             this.dgvnombre.AppearanceHeader.BackColor = System.Drawing.Color.LightGray;
             this.dgvnombre.AppearanceHeader.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvnombre.AppearanceHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvnombre.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvnombre.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvnombre.AppearanceHeader.Options.UseBackColor = true;
             this.dgvnombre.AppearanceHeader.Options.UseBorderColor = true;
             this.dgvnombre.AppearanceHeader.Options.UseFont = true;
@@ -205,7 +205,7 @@
             this.dgvreferencia.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvreferencia.AppearanceCell.BackColor2 = System.Drawing.Color.White;
             this.dgvreferencia.AppearanceCell.BorderColor = System.Drawing.Color.DarkSlateGray;
-            this.dgvreferencia.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvreferencia.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvreferencia.AppearanceCell.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvreferencia.AppearanceCell.Options.UseBackColor = true;
             this.dgvreferencia.AppearanceCell.Options.UseBorderColor = true;
@@ -214,7 +214,7 @@
             this.dgvreferencia.AppearanceHeader.BackColor = System.Drawing.Color.LightGray;
             this.dgvreferencia.AppearanceHeader.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvreferencia.AppearanceHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvreferencia.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvreferencia.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvreferencia.AppearanceHeader.Options.UseBackColor = true;
             this.dgvreferencia.AppearanceHeader.Options.UseBorderColor = true;
             this.dgvreferencia.AppearanceHeader.Options.UseFont = true;
@@ -230,7 +230,7 @@
             this.dgvrnc.AppearanceCell.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgvrnc.AppearanceCell.BackColor2 = System.Drawing.Color.White;
             this.dgvrnc.AppearanceCell.BorderColor = System.Drawing.Color.DarkSlateGray;
-            this.dgvrnc.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvrnc.AppearanceCell.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvrnc.AppearanceCell.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvrnc.AppearanceCell.Options.UseBackColor = true;
             this.dgvrnc.AppearanceCell.Options.UseBorderColor = true;
@@ -239,7 +239,7 @@
             this.dgvrnc.AppearanceHeader.BackColor = System.Drawing.Color.LightGray;
             this.dgvrnc.AppearanceHeader.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvrnc.AppearanceHeader.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.dgvrnc.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvrnc.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dgvrnc.AppearanceHeader.Options.UseBackColor = true;
             this.dgvrnc.AppearanceHeader.Options.UseBorderColor = true;
             this.dgvrnc.AppearanceHeader.Options.UseFont = true;

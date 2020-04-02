@@ -11,6 +11,10 @@ using DevExpress.XtraEditors;
 using Point_sys.CXC.Consulta;
 using Point_sys.CXC.Mant.Cliente;
 using Point_sys.Logistica.Funciones;
+using Point_sys.Inventario.Mant;
+using Point_sys.Inventario.Clases;
+using Point_sys.Inventario.Consulta;
+using System.Net;
 
 namespace Point_sys
 {
@@ -82,7 +86,7 @@ namespace Point_sys
                     txtdescuento.Text = "0";
                 }
                 //validar campos vacios
-                Logistica.calculos.Result_calculo res =  Logistica.calculos.Calcular.retornar(Fun_Utilidades.convertir_String_A_Entero(itbis), Convert.ToDouble(txtimporte.Text));
+                Logistica.calculos.Result_calculo res =  Logistica.calculos.Calcular.retornar(Fun_Utilidades.convertir_String_A_Entero( itbis), Convert.ToDouble(txtimporte.Text));
 
                 dataGridViewX1.Rows.Add(txtcodpro.Text, txtdescripcion.Text, txtcantidad.Text, txtprecio.Text, txtdescuento.Text, txtimporte.Text, res.Subtotal, res.itbis, tipoitbis);
                 Control[] array = { txtcodpro, txtdescripcion, txtcantidad, txtdescuento, txtimporte, txtprecio };
@@ -90,6 +94,7 @@ namespace Point_sys
                 //pictureBox1.Image = null;
                 txtcodpro.Focus();
                 calcular_Totalesgrid();
+                pictureEdit1.Image = null;
             }
             else
             {
@@ -106,36 +111,36 @@ namespace Point_sys
                 }
             }
         }
-        void competar_producto(long idproducto)
-        {
-            string cmd = "  select pro.*,itbis.tasaitbis as itbis from sysinvproductos pro inner join sysgentasaitbis itbis on pro.tipo_itbis = itbis.idtasaitbis where idproducto = '" + idproducto + "'";
-            DataSet ds = new DataSet();
-            ds = sql_funciones.Fun_Sql_Ejecutar(cmd);
-            if (sql_funciones.fun_validards(ds))
-            {
-                txtdescripcion.Text = ds.Tables[0].Rows[0]["descripcion"].ToString();
-                itbis = ds.Tables[0].Rows[0]["itbis"].ToString();
-                txtprecio.Text = ds.Tables[0].Rows[0]["precio2"].ToString();
-                tipoitbis = Fun_Utilidades.convertir_String_A_Entero(ds.Tables[0].Rows[0]["tipo_itbis"].ToString());
-                if (ds.Tables[0].Rows[0]["imagen"].ToString() != "")
-                {
-                  //  pictureBox1.Image = Base64ToImage(ds.Tables[0].Rows[0]["imagen"].ToString());
-                }
-                else
-                {
-                    //pictureBox1.Image = null;
-                }
-                txtcantidad.Focus();
+        //void competar_producto(long idproducto)
+        //{
+        //    string cmd = "  select pro.*,itbis.tasaitbis as itbis from sysinvproductos pro inner join sysgentasaitbis itbis on pro.tipo_itbis = itbis.idtasaitbis where idproducto = '" + idproducto + "'";
+        //    DataSet ds = new DataSet();
+        //    ds = sql_funciones.Fun_Sql_Ejecutar(cmd);
+        //    if (sql_funciones.fun_validards(ds))
+        //    {
+        //        txtdescripcion.Text = ds.Tables[0].Rows[0]["descripcion"].ToString();
+        //        itbis = ds.Tables[0].Rows[0]["itbis"].ToString();
+        //        txtprecio.Text = ds.Tables[0].Rows[0]["precio2"].ToString();
+        //        tipoitbis = Fun_Utilidades.convertir_String_A_Entero(ds.Tables[0].Rows[0]["tipo_itbis"].ToString());
+        //        if (ds.Tables[0].Rows[0]["imagen"].ToString() != "")
+        //        {
+        //          //  pictureBox1.Image = Base64ToImage(ds.Tables[0].Rows[0]["imagen"].ToString());
+        //        }
+        //        else
+        //        {
+        //            //pictureBox1.Image = null;
+        //        }
+        //        txtcantidad.Focus();
 
-            }
-            else
-            {
-               MessageBox.Show("Este registro no existe", "Atencion");
+        //    }
+        //    else
+        //    {
+        //       MessageBox.Show("Este registro no existe", "Atencion");
           
-                txtcodpro.Text = "";
-                txtcodpro.Focus();
-            }
-        }
+        //        txtcodpro.Text = "";
+        //        txtcodpro.Focus();
+        //    }
+        //}
         private void calcular_Totalesgrid()
         {
             double importe = 0, itbis = 0, subtotal = 0;
@@ -150,8 +155,8 @@ namespace Point_sys
 
             }
             totalitbis = itbis;
-            total = importe;
-            LBLTOTAL.Text = "<b><font size=" + "'+ 6'" + "><i>" + "" + "</i><font color=" + "'#00AA5A'" + "> " + "Total:   " + importe.ToString("n2") + "</font></font></b>";
+            total = importe+itbis;
+            LBLTOTAL.Text = "<b><font size=" + "'+ 6'" + "><i>" + "" + "</i><font color=" + "'#00AA5A'" + "> " + "Total:   " + total.ToString("n2") + "</font></font></b>";
             LBLITBIS.Text = "<b><font size=" + "'+ 6'" + "><i>" + "" + "</i><font color=" + "'#00AA5A'" + "> " + "Itbis:   " + itbis.ToString("n2") + "</font></font></b>";
             LBLSUBTOTAL.Text = "<b><font size=" + "'+ 6'" + "><i>" + "" + "</i><font color=" + "'#00AA5A'" + "> " + "Subtotal: " + subtotal.ToString("n2") + "</font></font></b>";
             lbltotalproductosgrid.Text = "Total Productos["+ dataGridViewX1.Rows.Count.ToString()+"]";
@@ -178,6 +183,96 @@ namespace Point_sys
 
             dataGridViewX1.Rows.RemoveAt(dataGridViewX1.CurrentRow.Index);
             calcular_Totalesgrid();
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            mant_productos fr = new mant_productos();
+            fr.ShowDialog();
+
+        }
+        void completaproduc(long produc)
+        {
+            pictureEdit1.Image = null;
+            ProductosAPIcs api = new ProductosAPIcs();
+
+            foreach (var item in api.lista(produc))
+            {
+                txtcodpro.Text = item.prod_cod.ToString();
+                txtdescripcion.Text = item.prod_nombre;
+                
+                txtprecio.Text = item.prod_precio.ToString();
+                itbis = item.tipo_impuesto.ToString();
+                if (item.image_url !=null)
+                {
+                    pictureEdit1.Image = cargar_imagen(item.image_url);
+                }
+               
+
+
+            }
+        }
+        Image cargar_imagen(string url)
+        {
+            Image imagen = Properties.Resources.boorder_32x32;
+
+            
+            if (url != "")
+            {
+
+
+                var request = WebRequest.Create(url);
+                try
+                {
+                    using (var response = request.GetResponse())
+                    using (var stream = response.GetResponseStream())
+                    {
+                        imagen = Bitmap.FromStream(stream);
+
+                        return imagen;
+                    }
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("La imagen del producto no pudo ser cargada " + e.ToString());
+
+
+                }
+
+
+
+            }
+            return imagen;
+        }
+
+        private void txtcantidad_Validating(object sender, CancelEventArgs e)
+        {
+            if (txtcantidad.Text != ""&& txtprecio.Text!="")
+            {
+                txtimporte.Text = calculaimporte(Fun_Utilidades.convertir_String_A_Entero(txtcantidad.Text), Convert.ToDouble(txtprecio.Text)).ToString();
+            }
+        }
+        private double calculaimporte(int cantidad, double precio, double descuento = 0)
+        {
+            double result = precio * cantidad;
+            return result - descuento;
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            Produc_consulta fr = new Produc_consulta();
+            if (fr.ShowDialog() == DialogResult.OK)
+            {
+
+                completaproduc(fr.idproducto);
+                // completacliente(fr.idcliente);
+            }
+        }
+
+        private void txtcodpro_Validating(object sender, CancelEventArgs e)
+        {
+            if(txtcodpro.Text!="")
+            completaproduc(Fun_Utilidades.convertir_String_A_Entero(txtcodpro.Text));
         }
     }
     }
