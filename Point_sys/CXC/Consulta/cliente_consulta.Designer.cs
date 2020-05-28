@@ -47,9 +47,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Btnretornar
+            // btnretornar
             // 
-           
+            this.btnretornar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnretornar.Appearance.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.btnretornar.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnretornar.Appearance.Options.UseBorderColor = true;
+            this.btnretornar.Appearance.Options.UseFont = true;
+            this.btnretornar.Appearance.Options.UseForeColor = true;
+            this.btnretornar.AppearanceDisabled.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.AppearanceDisabled.Options.UseBorderColor = true;
+            this.btnretornar.AppearanceHovered.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.AppearanceHovered.Options.UseBorderColor = true;
+            this.btnretornar.AppearancePressed.BorderColor = System.Drawing.Color.White;
+            this.btnretornar.AppearancePressed.Options.UseBorderColor = true;
+            this.btnretornar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnretornar.ImageOptions.Image")));
+            this.btnretornar.Location = new System.Drawing.Point(689, 3);
             // 
             // simpleButton1
             // 
@@ -57,9 +71,9 @@
             this.simpleButton1.Appearance.Options.UseFont = true;
             this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(911, 44);
+            this.simpleButton1.Location = new System.Drawing.Point(2, 38);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(133, 46);
+            this.simpleButton1.Size = new System.Drawing.Size(140, 37);
             this.simpleButton1.TabIndex = 1;
             this.simpleButton1.Text = "Seleccionar";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
@@ -69,30 +83,32 @@
             this.txtMayuscula2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtMayuscula2.enabled_personalizado = false;
             this.txtMayuscula2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMayuscula2.Location = new System.Drawing.Point(125, 67);
+            this.txtMayuscula2.Location = new System.Drawing.Point(145, 109);
             this.txtMayuscula2.Name = "txtMayuscula2";
-            this.txtMayuscula2.Size = new System.Drawing.Size(427, 32);
+            this.txtMayuscula2.Size = new System.Drawing.Size(487, 32);
             this.txtMayuscula2.TabIndex = 3;
             this.txtMayuscula2.Touch = false;
+            this.txtMayuscula2.Visible = false;
             // 
             // txtEntero1
             // 
             this.txtEntero1.enabled_personalizado = false;
             this.txtEntero1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEntero1.Location = new System.Drawing.Point(12, 67);
+            this.txtEntero1.Location = new System.Drawing.Point(14, 109);
             this.txtEntero1.Name = "txtEntero1";
-            this.txtEntero1.Size = new System.Drawing.Size(113, 32);
+            this.txtEntero1.Size = new System.Drawing.Size(129, 32);
             this.txtEntero1.TabIndex = 4;
             this.txtEntero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtEntero1.Touch = false;
+            this.txtEntero1.Visible = false;
             // 
             // txttotalrows
             // 
             this.txttotalrows.enabled_personalizado = false;
             this.txttotalrows.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttotalrows.Location = new System.Drawing.Point(127, 489);
+            this.txttotalrows.Location = new System.Drawing.Point(134, 419);
             this.txttotalrows.Name = "txttotalrows";
-            this.txttotalrows.Size = new System.Drawing.Size(113, 32);
+            this.txttotalrows.Size = new System.Drawing.Size(129, 32);
             this.txttotalrows.TabIndex = 5;
             this.txttotalrows.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txttotalrows.Touch = false;
@@ -101,7 +117,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 493);
+            this.label1.Location = new System.Drawing.Point(3, 423);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 18);
             this.label1.TabIndex = 6;
@@ -109,10 +125,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(12, 93);
+            this.gridControl1.Location = new System.Drawing.Point(1, 77);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1032, 394);
+            this.gridControl1.Size = new System.Drawing.Size(804, 340);
             this.gridControl1.TabIndex = 7;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -139,77 +155,84 @@
             // 
             this.dgvcodigo.Caption = "Código";
             this.dgvcodigo.FieldName = "id";
+            this.dgvcodigo.MinWidth = 23;
             this.dgvcodigo.Name = "dgvcodigo";
             this.dgvcodigo.OptionsColumn.ReadOnly = true;
             this.dgvcodigo.Visible = true;
             this.dgvcodigo.VisibleIndex = 0;
-            this.dgvcodigo.Width = 78;
+            this.dgvcodigo.Width = 89;
             // 
             // dgvnombre
             // 
             this.dgvnombre.Caption = "Nombre";
             this.dgvnombre.FieldName = "nombre";
+            this.dgvnombre.MinWidth = 23;
             this.dgvnombre.Name = "dgvnombre";
             this.dgvnombre.OptionsColumn.ReadOnly = true;
             this.dgvnombre.Visible = true;
             this.dgvnombre.VisibleIndex = 1;
-            this.dgvnombre.Width = 372;
+            this.dgvnombre.Width = 425;
             // 
             // dgvrnc
             // 
             this.dgvrnc.Caption = "Rnc/Cédula";
             this.dgvrnc.FieldName = "cedrnc";
+            this.dgvrnc.MinWidth = 23;
             this.dgvrnc.Name = "dgvrnc";
             this.dgvrnc.OptionsColumn.ReadOnly = true;
             this.dgvrnc.Visible = true;
             this.dgvrnc.VisibleIndex = 2;
-            this.dgvrnc.Width = 97;
+            this.dgvrnc.Width = 111;
             // 
             // dgvtelefono
             // 
             this.dgvtelefono.Caption = "Teléfono";
             this.dgvtelefono.FieldName = "telefono";
+            this.dgvtelefono.MinWidth = 23;
             this.dgvtelefono.Name = "dgvtelefono";
             this.dgvtelefono.OptionsColumn.ReadOnly = true;
             this.dgvtelefono.Visible = true;
             this.dgvtelefono.VisibleIndex = 3;
-            this.dgvtelefono.Width = 96;
+            this.dgvtelefono.Width = 110;
             // 
             // dgvrazonsocial
             // 
             this.dgvrazonsocial.Caption = "Razón Social";
             this.dgvrazonsocial.FieldName = "razon_social";
+            this.dgvrazonsocial.MinWidth = 23;
             this.dgvrazonsocial.Name = "dgvrazonsocial";
             this.dgvrazonsocial.OptionsColumn.ReadOnly = true;
             this.dgvrazonsocial.Visible = true;
             this.dgvrazonsocial.VisibleIndex = 4;
-            this.dgvrazonsocial.Width = 369;
+            this.dgvrazonsocial.Width = 422;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 45);
+            this.label2.Location = new System.Drawing.Point(15, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 21);
             this.label2.TabIndex = 8;
             this.label2.Text = "Código";
+            this.label2.Visible = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(122, 44);
+            this.label3.Location = new System.Drawing.Point(141, 86);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 21);
             this.label3.TabIndex = 9;
             this.label3.Text = "Nombre";
+            this.label3.Visible = false;
             // 
             // cliente_consulta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 533);
+            this.ClientSize = new System.Drawing.Size(812, 453);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.gridControl1);

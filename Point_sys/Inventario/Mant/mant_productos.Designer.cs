@@ -54,47 +54,33 @@
             this.label10 = new System.Windows.Forms.Label();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.panelEx1.SuspendLayout();
+         
             ((System.ComponentModel.ISupportInitialize)(this.boolrentable.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton1
             // 
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+           
             // 
             // Btnmodificar
             // 
-            this.Btnmodificar.FlatAppearance.BorderSize = 2;
-            this.Btnmodificar.Click += new System.EventHandler(this.Btnmodificar_Click);
+          
             // 
             // BtnCrear
-            // 
-            this.BtnCrear.FlatAppearance.BorderSize = 2;
-            this.BtnCrear.Click += new System.EventHandler(this.BtnCrear_Click);
+         
             // 
             // Btnsalvar
             // 
-            this.Btnsalvar.FlatAppearance.BorderSize = 2;
-            this.Btnsalvar.TabIndex = 0;
-            this.Btnsalvar.Click += new System.EventHandler(this.Btnsalvar_Click_1);
+          
             // 
             // btnretornar
             // 
-            this.btnretornar.FlatAppearance.BorderSize = 2;
-            this.btnretornar.Location = new System.Drawing.Point(724, 1);
+            
             // 
             // panelEx1
             // 
-            this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.panelEx1.Style.BackColor1.Color = System.Drawing.Color.LightGray;
-            this.panelEx1.Style.BackColor2.Color = System.Drawing.Color.White;
-            this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.panelEx1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.panelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.panelEx1.Style.GradientAngle = 90;
-            this.panelEx1.StyleMouseDown.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panelEx1.StyleMouseOver.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+           
             // 
             // txtreferencia
             // 
@@ -400,7 +386,7 @@
             this.Text = "mant_productos";
             this.Load += new System.EventHandler(this.mant_productos_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.mant_productos_Paint);
-            this.Controls.SetChildIndex(this.panelEx1, 0);
+          
             this.Controls.SetChildIndex(this.txtcodigobarra, 0);
             this.Controls.SetChildIndex(this.label6, 0);
             this.Controls.SetChildIndex(this.txtcod_pro, 0);
@@ -426,8 +412,7 @@
             this.Controls.SetChildIndex(this.label10, 0);
             this.Controls.SetChildIndex(this.pictureEdit1, 0);
             this.Controls.SetChildIndex(this.simpleButton2, 0);
-            this.panelEx1.ResumeLayout(false);
-            this.panelEx1.PerformLayout();
+           
             ((System.ComponentModel.ISupportInitialize)(this.boolrentable.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);

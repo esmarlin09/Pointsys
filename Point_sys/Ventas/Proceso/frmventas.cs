@@ -17,7 +17,7 @@ using Point_sys.Logistica.Funciones;
 
 namespace Point_sys.Ventas.Proceso
 {
-    public partial class frmventas : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class frmventas : Form
     {
         public frmventas()
         {
