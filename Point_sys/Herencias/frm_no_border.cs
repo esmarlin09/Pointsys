@@ -63,8 +63,18 @@ namespace Point_sys.Herencias
 
         private void frm_no_border_Paint(object sender, PaintEventArgs e)
         {
-            e.Graphics.DrawRectangle(new Pen(Color.Black, 3),
-                           this.DisplayRectangle);
+            //e.Graphics.DrawRectangle(new Pen(Color.Black, 3),
+            //               this.DisplayRectangle);
+        }
+
+        private void simpleButton1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnretornar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

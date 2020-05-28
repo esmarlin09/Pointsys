@@ -36,33 +36,33 @@
     <Reference Include="Devart.Data, Version=5.0.1408.0, Culture=neutral, PublicKeyToken=09af7300eec23701" />
     <Reference Include="Devart.Data.PostgreSql, Version=7.4.616.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2, Version=11.3.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Charts.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.PivotGrid.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.RichEdit.v17.1.Export, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v17.1.UI, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraCharts.v17.1.Wizard, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraCharts.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraGauges.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraNavBar.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraReports.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraReports.v17.1.Extensions, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraVerticalGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2.UI, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v19.2.Wizard, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v19.2.Core, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v19.2.Extensions, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v19.2, Version=19.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
@@ -114,17 +114,17 @@
     <Compile Include="Generales\Mod_rep.Designer.cs">
       <DependentUpon>Mod_rep.cs</DependentUpon>
     </Compile>
-    <Compile Include="Herencias\frm_mantcs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Herencias\frm_mantcs.Designer.cs">
-      <DependentUpon>frm_mantcs.cs</DependentUpon>
-    </Compile>
     <Compile Include="Herencias\frm_no_border.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Herencias\frm_no_border.Designer.cs">
       <DependentUpon>frm_no_border.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Herencias\mainformmant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Herencias\mainformmant.Designer.cs">
+      <DependentUpon>mainformmant.cs</DependentUpon>
     </Compile>
     <Compile Include="Inventario\Clases\ProductosAPIcs.cs" />
     <Compile Include="Inventario\Consulta\Produc_consulta.cs">
@@ -188,6 +188,12 @@
     <Compile Include="Ventas\Proceso\frmventas.Designer.cs">
       <DependentUpon>frmventas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ventas\Proceso\frmventas2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas\Proceso\frmventas2.Designer.cs">
+      <DependentUpon>frmventas2.cs</DependentUpon>
+    </Compile>
     <Compile Include="XtraForm1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,11 +221,11 @@
     <EmbeddedResource Include="Generales\Mod_rep.resx">
       <DependentUpon>Mod_rep.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Herencias\frm_mantcs.resx">
-      <DependentUpon>frm_mantcs.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Herencias\frm_no_border.resx">
       <DependentUpon>frm_no_border.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Herencias\mainformmant.resx">
+      <DependentUpon>mainformmant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inventario\Consulta\Produc_consulta.resx">
       <DependentUpon>Produc_consulta.cs</DependentUpon>
@@ -246,6 +252,9 @@
     </Compile>
     <EmbeddedResource Include="Ventas\Proceso\frmventas.resx">
       <DependentUpon>frmventas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas\Proceso\frmventas2.resx">
+      <DependentUpon>frmventas2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XtraForm1.resx">
       <DependentUpon>XtraForm1.cs</DependentUpon>
@@ -327,6 +336,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\reset_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doublefirst_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newtablestyle_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveall_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveto_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addnewdatasource_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modifytablestyle_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doubleprev_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveall_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newdatasource_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -104,10 +104,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(302, 306);
+            this.gridControl1.Location = new System.Drawing.Point(345, 306);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1330, 487);
+            this.gridControl1.Size = new System.Drawing.Size(1520, 487);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -123,16 +123,20 @@
             // dgvproducto
             // 
             this.dgvproducto.Caption = "Producto";
+            this.dgvproducto.MinWidth = 23;
             this.dgvproducto.Name = "dgvproducto";
             this.dgvproducto.Visible = true;
             this.dgvproducto.VisibleIndex = 0;
+            this.dgvproducto.Width = 86;
             // 
             // dgvdescripción
             // 
             this.dgvdescripción.Caption = "Descripción";
+            this.dgvdescripción.MinWidth = 23;
             this.dgvdescripción.Name = "dgvdescripción";
             this.dgvdescripción.Visible = true;
             this.dgvdescripción.VisibleIndex = 1;
+            this.dgvdescripción.Width = 86;
             // 
             // panelControl1
             // 
@@ -150,9 +154,9 @@
             this.panelControl1.Controls.Add(this.label3);
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Controls.Add(this.txtnombre);
-            this.panelControl1.Location = new System.Drawing.Point(12, 12);
+            this.panelControl1.Location = new System.Drawing.Point(14, 12);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(942, 161);
+            this.panelControl1.Size = new System.Drawing.Size(1077, 161);
             this.panelControl1.TabIndex = 1;
             this.panelControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl1_Paint);
             // 
@@ -161,9 +165,9 @@
             this.simpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
             this.simpleButton3.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton3.Location = new System.Drawing.Point(188, 12);
+            this.simpleButton3.Location = new System.Drawing.Point(215, 12);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(46, 29);
+            this.simpleButton3.Size = new System.Drawing.Size(53, 29);
             this.simpleButton3.TabIndex = 36;
             this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
@@ -180,10 +184,11 @@
             // txtdireccion
             // 
             this.txtdireccion.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtdireccion.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdireccion.Location = new System.Drawing.Point(100, 99);
+            this.txtdireccion.enabled_personalizado = false;
+            this.txtdireccion.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdireccion.Location = new System.Drawing.Point(114, 99);
             this.txtdireccion.Name = "txtdireccion";
-            this.txtdireccion.Size = new System.Drawing.Size(423, 28);
+            this.txtdireccion.Size = new System.Drawing.Size(483, 32);
             this.txtdireccion.TabIndex = 32;
             this.txtdireccion.Touch = false;
             // 
@@ -191,7 +196,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(5, 12);
+            this.label14.Location = new System.Drawing.Point(6, 12);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 21);
             this.label14.TabIndex = 29;
@@ -199,10 +204,11 @@
             // 
             // txtcodigocliente
             // 
-            this.txtcodigocliente.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcodigocliente.Location = new System.Drawing.Point(100, 12);
+            this.txtcodigocliente.enabled_personalizado = false;
+            this.txtcodigocliente.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcodigocliente.Location = new System.Drawing.Point(114, 12);
             this.txtcodigocliente.Name = "txtcodigocliente";
-            this.txtcodigocliente.Size = new System.Drawing.Size(86, 29);
+            this.txtcodigocliente.Size = new System.Drawing.Size(98, 32);
             this.txtcodigocliente.TabIndex = 30;
             this.txtcodigocliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtcodigocliente.Touch = false;
@@ -212,7 +218,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(669, 12);
+            this.label7.Location = new System.Drawing.Point(765, 12);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(81, 21);
             this.label7.TabIndex = 28;
@@ -220,29 +226,29 @@
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(767, 9);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(877, 9);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(157, 28);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(179, 28);
             this.comboBoxEdit1.TabIndex = 27;
             // 
             // mskTelefono1
             // 
             this.mskTelefono1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskTelefono1.Location = new System.Drawing.Point(767, 92);
+            this.mskTelefono1.Location = new System.Drawing.Point(877, 92);
             this.mskTelefono1.Mask = "(000)-000-0000";
             this.mskTelefono1.Name = "mskTelefono1";
-            this.mskTelefono1.Size = new System.Drawing.Size(157, 28);
+            this.mskTelefono1.Size = new System.Drawing.Size(179, 28);
             this.mskTelefono1.TabIndex = 24;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(669, 95);
+            this.label5.Location = new System.Drawing.Point(765, 95);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(74, 21);
             this.label5.TabIndex = 23;
@@ -251,17 +257,17 @@
             // mskRncCedula1
             // 
             this.mskRncCedula1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskRncCedula1.Location = new System.Drawing.Point(767, 51);
+            this.mskRncCedula1.Location = new System.Drawing.Point(877, 51);
             this.mskRncCedula1.Mask = "000-0000000-0";
             this.mskRncCedula1.Name = "mskRncCedula1";
-            this.mskRncCedula1.Size = new System.Drawing.Size(157, 28);
+            this.mskRncCedula1.Size = new System.Drawing.Size(179, 28);
             this.mskRncCedula1.TabIndex = 22;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(669, 53);
+            this.label3.Location = new System.Drawing.Point(765, 53);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(95, 21);
             this.label3.TabIndex = 21;
@@ -280,10 +286,11 @@
             // txtnombre
             // 
             this.txtnombre.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtnombre.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre.Location = new System.Drawing.Point(100, 53);
+            this.txtnombre.enabled_personalizado = false;
+            this.txtnombre.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombre.Location = new System.Drawing.Point(114, 53);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(423, 28);
+            this.txtnombre.Size = new System.Drawing.Size(483, 32);
             this.txtnombre.TabIndex = 16;
             this.txtnombre.Touch = false;
             // 
@@ -291,7 +298,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(380, 9);
+            this.label6.Location = new System.Drawing.Point(434, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 21);
             this.label6.TabIndex = 26;
@@ -299,10 +306,11 @@
             // 
             // txtEntero1
             // 
-            this.txtEntero1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEntero1.Location = new System.Drawing.Point(57, 31);
+            this.txtEntero1.enabled_personalizado = false;
+            this.txtEntero1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEntero1.Location = new System.Drawing.Point(65, 31);
             this.txtEntero1.Name = "txtEntero1";
-            this.txtEntero1.Size = new System.Drawing.Size(86, 29);
+            this.txtEntero1.Size = new System.Drawing.Size(98, 32);
             this.txtEntero1.TabIndex = 19;
             this.txtEntero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtEntero1.Touch = false;
@@ -310,10 +318,11 @@
             // txtMayuscula3
             // 
             this.txtMayuscula3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtMayuscula3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMayuscula3.Location = new System.Drawing.Point(144, 32);
+            this.txtMayuscula3.enabled_personalizado = false;
+            this.txtMayuscula3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMayuscula3.Location = new System.Drawing.Point(165, 32);
             this.txtMayuscula3.Name = "txtMayuscula3";
-            this.txtMayuscula3.Size = new System.Drawing.Size(588, 28);
+            this.txtMayuscula3.Size = new System.Drawing.Size(671, 32);
             this.txtMayuscula3.TabIndex = 25;
             this.txtMayuscula3.Touch = false;
             // 
@@ -321,7 +330,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(60, 8);
+            this.label4.Location = new System.Drawing.Point(69, 8);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 21);
             this.label4.TabIndex = 18;
@@ -336,35 +345,36 @@
             this.panelControl2.Controls.Add(this.label10);
             this.panelControl2.Controls.Add(this.label12);
             this.panelControl2.Controls.Add(this.txtMayuscula4);
-            this.panelControl2.Location = new System.Drawing.Point(973, 12);
+            this.panelControl2.Location = new System.Drawing.Point(1112, 12);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(308, 161);
+            this.panelControl2.Size = new System.Drawing.Size(352, 161);
             this.panelControl2.TabIndex = 3;
             // 
             // txtMayuscula5
             // 
             this.txtMayuscula5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtMayuscula5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMayuscula5.Location = new System.Drawing.Point(102, 95);
+            this.txtMayuscula5.enabled_personalizado = false;
+            this.txtMayuscula5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMayuscula5.Location = new System.Drawing.Point(117, 95);
             this.txtMayuscula5.Name = "txtMayuscula5";
-            this.txtMayuscula5.Size = new System.Drawing.Size(189, 28);
+            this.txtMayuscula5.Size = new System.Drawing.Size(215, 32);
             this.txtMayuscula5.TabIndex = 30;
             this.txtMayuscula5.Touch = false;
             // 
             // mskNCF1
             // 
             this.mskNCF1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mskNCF1.Location = new System.Drawing.Point(100, 50);
+            this.mskNCF1.Location = new System.Drawing.Point(114, 50);
             this.mskNCF1.Mask = "A0000000000";
             this.mskNCF1.Name = "mskNCF1";
-            this.mskNCF1.Size = new System.Drawing.Size(189, 28);
+            this.mskNCF1.Size = new System.Drawing.Size(215, 28);
             this.mskNCF1.TabIndex = 29;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(7, 102);
+            this.label2.Location = new System.Drawing.Point(8, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 21);
             this.label2.TabIndex = 28;
@@ -393,10 +403,11 @@
             // txtMayuscula4
             // 
             this.txtMayuscula4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtMayuscula4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMayuscula4.Location = new System.Drawing.Point(100, 9);
+            this.txtMayuscula4.enabled_personalizado = false;
+            this.txtMayuscula4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMayuscula4.Location = new System.Drawing.Point(114, 9);
             this.txtMayuscula4.Name = "txtMayuscula4";
-            this.txtMayuscula4.Size = new System.Drawing.Size(189, 28);
+            this.txtMayuscula4.Size = new System.Drawing.Size(215, 32);
             this.txtMayuscula4.TabIndex = 16;
             this.txtMayuscula4.Touch = false;
             // 
@@ -417,9 +428,9 @@
             this.panel1.Controls.Add(this.txtEntero1);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.txtMayuscula3);
-            this.panel1.Location = new System.Drawing.Point(296, 230);
+            this.panel1.Location = new System.Drawing.Point(338, 230);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1342, 61);
+            this.panel1.Size = new System.Drawing.Size(1533, 61);
             this.panel1.TabIndex = 4;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -430,7 +441,7 @@
             this.simpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.simpleButton2.Location = new System.Drawing.Point(1, 30);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 29);
+            this.simpleButton2.Size = new System.Drawing.Size(63, 29);
             this.simpleButton2.TabIndex = 35;
             // 
             // simpleButton1
@@ -438,9 +449,9 @@
             this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton1.Location = new System.Drawing.Point(1272, 30);
+            this.simpleButton1.Location = new System.Drawing.Point(1454, 30);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(69, 29);
+            this.simpleButton1.Size = new System.Drawing.Size(79, 29);
             this.simpleButton1.TabIndex = 7;
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
@@ -448,7 +459,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1147, 7);
+            this.label13.Location = new System.Drawing.Point(1311, 7);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(69, 21);
             this.label13.TabIndex = 34;
@@ -456,10 +467,11 @@
             // 
             // txtDecimal3
             // 
-            this.txtDecimal3.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecimal3.Location = new System.Drawing.Point(1115, 30);
+            this.txtDecimal3.enabled_personalizado = false;
+            this.txtDecimal3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecimal3.Location = new System.Drawing.Point(1274, 30);
             this.txtDecimal3.Name = "txtDecimal3";
-            this.txtDecimal3.Size = new System.Drawing.Size(156, 29);
+            this.txtDecimal3.Size = new System.Drawing.Size(178, 32);
             this.txtDecimal3.TabIndex = 33;
             this.txtDecimal3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDecimal3.Touch = false;
@@ -468,7 +480,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(983, 8);
+            this.label11.Location = new System.Drawing.Point(1123, 8);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(89, 21);
             this.label11.TabIndex = 32;
@@ -476,10 +488,11 @@
             // 
             // txtDecimal2
             // 
-            this.txtDecimal2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecimal2.Location = new System.Drawing.Point(969, 31);
+            this.txtDecimal2.enabled_personalizado = false;
+            this.txtDecimal2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecimal2.Location = new System.Drawing.Point(1107, 31);
             this.txtDecimal2.Name = "txtDecimal2";
-            this.txtDecimal2.Size = new System.Drawing.Size(140, 29);
+            this.txtDecimal2.Size = new System.Drawing.Size(159, 32);
             this.txtDecimal2.TabIndex = 31;
             this.txtDecimal2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDecimal2.Touch = false;
@@ -488,7 +501,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(868, 7);
+            this.label9.Location = new System.Drawing.Point(992, 7);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(55, 21);
             this.label9.TabIndex = 30;
@@ -496,10 +509,11 @@
             // 
             // txtDecimal1
             // 
-            this.txtDecimal1.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDecimal1.Location = new System.Drawing.Point(834, 31);
+            this.txtDecimal1.enabled_personalizado = false;
+            this.txtDecimal1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecimal1.Location = new System.Drawing.Point(953, 31);
             this.txtDecimal1.Name = "txtDecimal1";
-            this.txtDecimal1.Size = new System.Drawing.Size(133, 29);
+            this.txtDecimal1.Size = new System.Drawing.Size(151, 32);
             this.txtDecimal1.TabIndex = 29;
             this.txtDecimal1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDecimal1.Touch = false;
@@ -508,7 +522,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(738, 9);
+            this.label8.Location = new System.Drawing.Point(843, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(75, 21);
             this.label8.TabIndex = 27;
@@ -516,10 +530,11 @@
             // 
             // txtEntero2
             // 
-            this.txtEntero2.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEntero2.Location = new System.Drawing.Point(734, 31);
+            this.txtEntero2.enabled_personalizado = false;
+            this.txtEntero2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEntero2.Location = new System.Drawing.Point(839, 31);
             this.txtEntero2.Name = "txtEntero2";
-            this.txtEntero2.Size = new System.Drawing.Size(97, 29);
+            this.txtEntero2.Size = new System.Drawing.Size(110, 32);
             this.txtEntero2.TabIndex = 28;
             this.txtEntero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtEntero2.Touch = false;
@@ -530,9 +545,9 @@
             this.panel2.Controls.Add(this.simpleButton6);
             this.panel2.Controls.Add(this.simpleButton5);
             this.panel2.Controls.Add(this.simpleButton4);
-            this.panel2.Location = new System.Drawing.Point(12, 230);
+            this.panel2.Location = new System.Drawing.Point(14, 230);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(284, 563);
+            this.panel2.Size = new System.Drawing.Size(324, 563);
             this.panel2.TabIndex = 5;
             // 
             // simpleButton6
@@ -542,7 +557,7 @@
             this.simpleButton6.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton6.Location = new System.Drawing.Point(-1, 86);
             this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(284, 29);
+            this.simpleButton6.Size = new System.Drawing.Size(325, 29);
             this.simpleButton6.TabIndex = 38;
             // 
             // simpleButton5
@@ -554,7 +569,7 @@
             this.simpleButton5.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton5.Location = new System.Drawing.Point(-1, 45);
             this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(284, 29);
+            this.simpleButton5.Size = new System.Drawing.Size(325, 29);
             this.simpleButton5.TabIndex = 37;
             this.simpleButton5.Text = "Modificar Cliente";
             // 
@@ -567,7 +582,7 @@
             this.simpleButton4.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton4.Location = new System.Drawing.Point(-1, 1);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(284, 29);
+            this.simpleButton4.Size = new System.Drawing.Size(325, 29);
             this.simpleButton4.TabIndex = 36;
             this.simpleButton4.Text = "Registrar Producto";
             // 
@@ -577,9 +592,9 @@
             this.panel3.Controls.Add(this.lbltotal);
             this.panel3.Controls.Add(this.lbltotalitbis);
             this.panel3.Controls.Add(this.lblsubtotal);
-            this.panel3.Location = new System.Drawing.Point(1638, 230);
+            this.panel3.Location = new System.Drawing.Point(1872, 230);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(280, 563);
+            this.panel3.Size = new System.Drawing.Size(320, 563);
             this.panel3.TabIndex = 6;
             // 
             // lbltotal
@@ -588,7 +603,7 @@
             this.lbltotal.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(90)))));
             this.lbltotal.Appearance.Options.UseFont = true;
             this.lbltotal.Appearance.Options.UseForeColor = true;
-            this.lbltotal.Location = new System.Drawing.Point(4, 325);
+            this.lbltotal.Location = new System.Drawing.Point(5, 325);
             this.lbltotal.Name = "lbltotal";
             this.lbltotal.Size = new System.Drawing.Size(256, 48);
             this.lbltotal.TabIndex = 46;
@@ -600,7 +615,7 @@
             this.lbltotalitbis.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(90)))));
             this.lbltotalitbis.Appearance.Options.UseFont = true;
             this.lbltotalitbis.Appearance.Options.UseForeColor = true;
-            this.lbltotalitbis.Location = new System.Drawing.Point(4, 193);
+            this.lbltotalitbis.Location = new System.Drawing.Point(5, 193);
             this.lbltotalitbis.Name = "lbltotalitbis";
             this.lbltotalitbis.Size = new System.Drawing.Size(347, 45);
             this.lbltotalitbis.TabIndex = 45;
@@ -612,7 +627,7 @@
             this.lblsubtotal.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(170)))), ((int)(((byte)(90)))));
             this.lblsubtotal.Appearance.Options.UseFont = true;
             this.lblsubtotal.Appearance.Options.UseForeColor = true;
-            this.lblsubtotal.Location = new System.Drawing.Point(4, 45);
+            this.lblsubtotal.Location = new System.Drawing.Point(5, 45);
             this.lblsubtotal.Name = "lblsubtotal";
             this.lblsubtotal.Size = new System.Drawing.Size(344, 48);
             this.lblsubtotal.TabIndex = 44;
@@ -624,9 +639,9 @@
             this.panelControl3.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.panelControl3.Controls.Add(this.simpleButton8);
             this.panelControl3.Controls.Add(this.simpleButton7);
-            this.panelControl3.Location = new System.Drawing.Point(12, 499);
+            this.panelControl3.Location = new System.Drawing.Point(14, 499);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(284, 294);
+            this.panelControl3.Size = new System.Drawing.Size(325, 294);
             this.panelControl3.TabIndex = 39;
             // 
             // simpleButton8
@@ -638,7 +653,7 @@
             this.simpleButton8.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton8.Location = new System.Drawing.Point(0, 57);
             this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(284, 29);
+            this.simpleButton8.Size = new System.Drawing.Size(325, 29);
             this.simpleButton8.TabIndex = 40;
             this.simpleButton8.Text = "Salidas";
             // 
@@ -651,7 +666,7 @@
             this.simpleButton7.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton7.Location = new System.Drawing.Point(0, 12);
             this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(284, 29);
+            this.simpleButton7.Size = new System.Drawing.Size(325, 29);
             this.simpleButton7.TabIndex = 39;
             this.simpleButton7.Text = "Entradas";
             // 
@@ -659,7 +674,7 @@
             // 
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(304, 797);
+            this.labelControl1.Location = new System.Drawing.Point(347, 797);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(145, 21);
             this.labelControl1.TabIndex = 43;
@@ -672,30 +687,30 @@
             this.simpleButton9.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton9.ImageOptions.Image")));
             this.simpleButton9.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
-            this.simpleButton9.Location = new System.Drawing.Point(1638, 792);
+            this.simpleButton9.Location = new System.Drawing.Point(1872, 792);
             this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(280, 65);
+            this.simpleButton9.Size = new System.Drawing.Size(320, 65);
             this.simpleButton9.TabIndex = 47;
             this.simpleButton9.Text = "Procesar";
             // 
             // pictureEdit1
             // 
             this.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureEdit1.Location = new System.Drawing.Point(1334, 12);
+            this.pictureEdit1.Location = new System.Drawing.Point(1525, 12);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit1.Properties.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureEdit1.Properties.InitialImage")));
+            this.pictureEdit1.Properties.InitialImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pictureEdit1.Properties.InitialImageOptions.Image")));
             this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
             this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Squeeze;
-            this.pictureEdit1.Size = new System.Drawing.Size(234, 161);
+            this.pictureEdit1.Size = new System.Drawing.Size(267, 161);
             this.pictureEdit1.TabIndex = 48;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1737, 63);
+            this.button1.Location = new System.Drawing.Point(1985, 63);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(86, 23);
             this.button1.TabIndex = 49;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -703,9 +718,10 @@
             // 
             // frmventas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1929, 857);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1404, 857);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureEdit1);
             this.Controls.Add(this.simpleButton9);
@@ -717,8 +733,10 @@
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.gridControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmventas";
             this.Text = "Descuento";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmventas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

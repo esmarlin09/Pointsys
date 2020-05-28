@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Point_sys.Herencias;
 using Point_sys.Inventario.Clases;
 using Point_sys.Inventario.Consulta;
 using Point_sys.Logistica.calculos;
@@ -18,7 +19,7 @@ using static Point_sys.Logistica.Funciones.sql_funciones;
 
 namespace Point_sys.Inventario.Mant
 {
-    public partial class mant_productos : Herencias.frm_mantcs
+    public partial class mant_productos : mainformmant
     {
         public mant_productos()
         {

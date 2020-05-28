@@ -14,10 +14,11 @@ using Newtonsoft.Json;
 using Point_sys.Logistica.Funciones;
 using static Point_sys.CXC.Mant.Cliente.Client_web;
 using System.Net;
+using Point_sys.Herencias;
 
 namespace Point_sys.CXC.Mant.Cliente
 {
-    public partial class mant_cliente : Herencias.frm_mantcs
+    public partial class mant_cliente : mainformmant
     {
         public mant_cliente()
         {
@@ -192,6 +193,11 @@ namespace Point_sys.CXC.Mant.Cliente
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xtraTabControl1_Click(object sender, EventArgs e)
         {
 
         }

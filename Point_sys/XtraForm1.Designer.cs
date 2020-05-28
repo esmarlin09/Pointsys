@@ -565,7 +565,8 @@
             // 
             // panelControl1layoutControl1ConvertedLayout
             // 
-            this.panelControl1layoutControl1ConvertedLayout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.panelControl1layoutControl1ConvertedLayout.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1layoutControl1ConvertedLayout.Controls.Add(this.panelControl2);
             this.panelControl1layoutControl1ConvertedLayout.Controls.Add(this.simpleButton4);
@@ -737,6 +738,9 @@
             // 
             // expandablePanel1
             // 
+            this.expandablePanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.expandablePanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.expandablePanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.expandablePanel1.Controls.Add(this.simpleButton8);
@@ -771,7 +775,6 @@
             // 
             this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton8.Appearance.Options.UseFont = true;
-            this.simpleButton8.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton8.ImageOptions.Image")));
             this.simpleButton8.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton8.Location = new System.Drawing.Point(0, 182);
@@ -784,7 +787,6 @@
             // 
             this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton7.Appearance.Options.UseFont = true;
-            this.simpleButton7.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton7.ImageOptions.Image")));
             this.simpleButton7.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton7.Location = new System.Drawing.Point(0, 147);
@@ -797,7 +799,6 @@
             // 
             this.simpleButton5.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton5.Appearance.Options.UseFont = true;
-            this.simpleButton5.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton5.ImageOptions.Image")));
             this.simpleButton5.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton5.Location = new System.Drawing.Point(0, 74);
@@ -810,7 +811,6 @@
             // 
             this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
             this.simpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton1.Location = new System.Drawing.Point(0, 30);
@@ -822,7 +822,9 @@
             // 
             // panelEx1
             // 
-            this.panelEx1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelEx1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelEx1.CanvasColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panelEx1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.panelEx1.Controls.Add(this.LBLITBIS);
@@ -1165,9 +1167,8 @@
             // simpleButton9
             // 
             this.simpleButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton9.Appearance.Font = new System.Drawing.Font("Tahoma", 16.2F);
             this.simpleButton9.Appearance.Options.UseFont = true;
-            this.simpleButton9.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003;
             this.simpleButton9.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton9.ImageOptions.Image")));
             this.simpleButton9.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleLeft;
             this.simpleButton9.Location = new System.Drawing.Point(1671, 0);
@@ -1182,9 +1183,9 @@
             this.lbltotalproductosgrid.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotalproductosgrid.Location = new System.Drawing.Point(198, 10);
             this.lbltotalproductosgrid.Name = "lbltotalproductosgrid";
-            this.lbltotalproductosgrid.Size = new System.Drawing.Size(267, 34);
+            this.lbltotalproductosgrid.Size = new System.Drawing.Size(237, 34);
             this.lbltotalproductosgrid.TabIndex = 78;
-            this.lbltotalproductosgrid.Text = "Total Productos [10]";
+            this.lbltotalproductosgrid.Text = "Total Productos []";
             // 
             // XtraForm1
             // 

@@ -41,28 +41,20 @@
             this.dgvreferencia = new DevExpress.XtraGrid.Columns.GridColumn();
             this.dgvrnc = new DevExpress.XtraGrid.Columns.GridColumn();
             this.txtMayuscula1 = new Point_sys.Logistica.Controles_mod.TxtMayuscula();
-            this.panelEx1.SuspendLayout();
+            
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnretornar
             // 
-            this.btnretornar.FlatAppearance.BorderSize = 2;
-            this.btnretornar.Location = new System.Drawing.Point(694, 1);
+            
             // 
             // panelEx1
             // 
-            this.panelEx1.Size = new System.Drawing.Size(1318, 38);
-            this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
-            this.panelEx1.Style.BackColor1.Color = System.Drawing.Color.LightGray;
-            this.panelEx1.Style.BackColor2.Color = System.Drawing.Color.White;
-            this.panelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine;
-            this.panelEx1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
-            this.panelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
-            this.panelEx1.Style.GradientAngle = 90;
-            this.panelEx1.StyleMouseDown.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panelEx1.StyleMouseOver.ForeColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+           
+           
+          
             // 
             // simpleButton1
             // 
@@ -285,9 +277,7 @@
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.gridControl1, 0);
             this.Controls.SetChildIndex(this.txtMayuscula1, 0);
-            this.Controls.SetChildIndex(this.panelEx1, 0);
-            this.panelEx1.ResumeLayout(false);
-            this.panelEx1.PerformLayout();
+           
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
