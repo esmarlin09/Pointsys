@@ -242,6 +242,7 @@
             this.Controls.Add(this.txtMayuscula2);
             this.Controls.Add(this.simpleButton1);
             this.Name = "cliente_consulta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "cliente_consulta";
             this.Load += new System.EventHandler(this.cliente_consulta_Load);
             this.Controls.SetChildIndex(this.simpleButton1, 0);

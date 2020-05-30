@@ -28,7 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmventas2));
             this.SuspendLayout();
+            // 
+            // btnretornar
+            // 
+            this.btnretornar.Appearance.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.Appearance.FontStyleDelta = System.Drawing.FontStyle.Bold;
+            this.btnretornar.Appearance.ForeColor = System.Drawing.Color.White;
+            this.btnretornar.Appearance.Options.UseBorderColor = true;
+            this.btnretornar.Appearance.Options.UseFont = true;
+            this.btnretornar.Appearance.Options.UseForeColor = true;
+            this.btnretornar.AppearanceDisabled.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.AppearanceDisabled.Options.UseBorderColor = true;
+            this.btnretornar.AppearanceHovered.BorderColor = System.Drawing.Color.Black;
+            this.btnretornar.AppearanceHovered.Options.UseBorderColor = true;
+            this.btnretornar.AppearancePressed.BorderColor = System.Drawing.Color.White;
+            this.btnretornar.AppearancePressed.Options.UseBorderColor = true;
+            this.btnretornar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnretornar.ImageOptions.Image")));
+            this.btnretornar.Location = new System.Drawing.Point(681, 3);
             // 
             // frmventas2
             // 
