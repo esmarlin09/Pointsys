@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DevExpress.XtraBars;
+using System.Collections;
 
 namespace Point_sys
 {
@@ -17,7 +18,32 @@ namespace Point_sys
         {
             InitializeComponent();
         }
+        public static SortedList formInstances = new SortedList();
+        public Form AbrirVentana(Type type)
+        {
+            return AbrirVentana(type, false);
+        }
+        public Form AbrirVentana(Type type, bool dialog)
+        {
+            Form formulario;
+            if ((formulario = (Form)formInstances[type.ToString()]) == null || formulario.IsDisposed)
+            {
+                formulario = (Form)Activator.CreateInstance(type);
+                formInstances[type.ToString()] = formulario;
+            }
 
+            formulario.Activate();
+            if (dialog)
+                formulario.Focus();
+            else
+            {
+                formulario.Show();
+                formulario.Owner = this;
+            }
+            formulario.Focus();
+
+            return formulario;
+        }
         private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
         {
             CXC.Mant.Cliente.mant_cliente fr = new CXC.Mant.Cliente.mant_cliente();
@@ -26,7 +52,8 @@ namespace Point_sys
 
         private void barButtonItem4_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Fun_abrir_Form_en_panel(new XtraForm1(), panelprincipal);
+            //Fun_abrir_Form_en_panel(new XtraForm1(), panelprincipal);
+           frmventasPOS formulario = (frmventasPOS)AbrirVentana(typeof(frmventasPOS));
         }
         public static void Fun_abrir_Form_en_panel(Form frm_ident, DevExpress.XtraEditors.PanelControl panel )//,object formhija)
         {
